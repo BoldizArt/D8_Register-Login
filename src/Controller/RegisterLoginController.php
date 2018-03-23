@@ -15,7 +15,7 @@ class RegisterLoginController
     private $lang;
     private $uid;
 
-    function __construct($name, $pass, $mail)
+    function __construct($name, $pass, $mail = '')
     {
         $this->pass = $pass;
         $this->mail = $mail;
