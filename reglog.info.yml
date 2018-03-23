@@ -1,0 +1,6 @@
+name: RegLog
+type: module
+description: 'User Register/Login controller...'
+package: 'Boldizart'
+version: '8.x - 1.0'
+core: '8.x'

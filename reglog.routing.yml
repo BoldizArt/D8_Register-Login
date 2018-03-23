@@ -1,0 +1,14 @@
+reglog.register:
+  path: 'reglog/register'
+  defaults:
+    _controller: '\Drupal\reglog\Controller\RequestController::register'
+  requirements:
+    _permission: 'access content'
+
+
+reglog.login:
+  path: 'reglog/login'
+  defaults:
+    _controller: '\Drupal\reglog\Controller\RequestController::login'
+  requirements:
+    _permission: 'access content'
